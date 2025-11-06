@@ -1,7 +1,7 @@
 # MLP_proj2_Fall_2025
 MLP_proj2_Fall_2025 Kaggle
 
-## How to run
+## Step 5: How to run
 1. Upload or write the code 'llm-finetuning.ipynb' in the Kaggle Notebook environment.
 2. This code requires GPU T4 x2, so verifiying phone number to access GPU is required.
 3. This code uses Gemma-2 model from Hugging Face, so getting permission from Hugging Face is required.
