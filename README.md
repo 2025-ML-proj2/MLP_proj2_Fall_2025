@@ -10,7 +10,7 @@ MLP_proj2_Fall_2025 Kaggle
 4. Run the code and submit the results.
 
 
-##Step 3: How to run
+## Step 3: How to run 'Step 3. llm-finetuning-deberta.ipynb'
 1. Download the llm_finetuning_deberta.ipynb file prepared on GitHub and upload it to the Kaggle notebook environment.
 2. Obtain the deberta-v3-base version from Hugging Face.
 3. Perform fine-tuning using the train.csv dataset in the local environment.
