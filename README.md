@@ -9,6 +9,16 @@ MLP_proj2_Fall_2025 Kaggle
     <br>3-2. Click '+ Add Input' button and add tag:'Datasets' and Search' and search "sentence-transformers/all-MiniLM-L6-v2" and click '+' button.
 4. Run the code and submit the results.
 
+
+##Step 3: How to run
+1. Download the llm_finetuning_deberta.ipynb file prepared on GitHub and upload it to the Kaggle notebook environment.
+2. Obtain the deberta-v3-base version from Hugging Face.
+3. Perform fine-tuning using the train.csv dataset in the local environment.
+4. Compress the lightweight weights of the trained model into the deberta_lora_weights.zip file. Compress the previously downloaded deberta-v3-base-local model into a zip file as well, and upload both to Kaggle as datasets.
+5. Use these as input datasets in the Kaggle notebook environment.
+6. Enable the GPU T4 x2 accelerator in the Kaggle notebook to proceed with training.
+
+
 ## How to run 'Step 5. llm-finetuning.ipynb'
 1. Upload or write the code 'llm-finetuning.ipynb' in the Kaggle Notebook environment.
 2. This code requires GPU T4 x2, so verifiying phone number to access GPU is required.
